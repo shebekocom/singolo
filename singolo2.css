@@ -6,6 +6,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #666d89;
 }
 
 .container {
@@ -121,5 +122,92 @@
 
 .works__item:nth-child(12) {
   background: url("assets/img/Image.png");
+}
+
+.about-us {
+  background-color: #f2f2f2;
+}
+
+.about-us__heading {
+  padding-top: 113px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about-us__description {
+  padding-top: 20px;
+}
+
+.about-us__team {
+  margin-top: 58px;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team__photo {
+  width: 300px;
+  height: 300px;
+}
+
+.team__item:nth-child(1) > .team__photo {
+  background: url("assets/img/photo-3.png");
+}
+
+.team__item:nth-child(2) > .team__photo {
+  background: url("assets/img/photo-2.png");
+}
+
+.team__item:nth-child(3) > .team__photo {
+  background: url("assets/img/photo.png");
+}
+
+.team__name {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.team__description {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.team__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.team__link {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.team__link-fb {
+  background: url("assets/img/Facebook.png");
+}
+
+.team__link-google {
+  background: url("assets/img/Google.png");
+}
+
+.team__link-twitter {
+  background: url("assets/img/Twitter.png");
+}
+
+.team__link-linkedin {
+  background: url("assets/img/LinkedIn.png");
 }
 /*# sourceMappingURL=singolo2.css.map */
