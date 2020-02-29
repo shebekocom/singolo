@@ -1,9 +1,125 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
 * {
   font-family: "Lato", sans-serif;
+  font-size: 18px;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1020px;
+  min-width: 1020px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 942px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  background-color: #2d303a;
+  color: #666d89;
+}
+
+.portfolio__heading {
+  padding-top: 60px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.portfolio__description {
+  padding-top: 20px;
+}
+
+.portfolio__tags {
+  margin-top: 16px;
+}
+
+.portfolio__works {
+  margin-top: 19px;
+}
+
+.tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.tags__item {
+  border: 1px solid #666d89;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works__item {
+  width: 220px;
+  height: 187px;
+  margin-bottom: 20px;
+}
+
+.works__item:nth-child(1) {
+  background: url("assets/img/Project-8.png");
+}
+
+.works__item:nth-child(2) {
+  background: url("assets/img/Project-5.png");
+}
+
+.works__item:nth-child(3) {
+  background: url("assets/img/Project-6.png");
+}
+
+.works__item:nth-child(4) {
+  background: url("assets/img/Project.png");
+}
+
+.works__item:nth-child(5) {
+  background: url("assets/img/Project-7.png");
+}
+
+.works__item:nth-child(6) {
+  background: url("assets/img/Project-4.png");
+}
+
+.works__item:nth-child(7) {
+  background: url("assets/img/Image-5.png");
+}
+
+.works__item:nth-child(8) {
+  background: url("assets/img/Image-2.png");
+}
+
+.works__item:nth-child(9) {
+  background: url("assets/img/Project-6.png");
+}
+
+.works__item:nth-child(10) {
+  background: url("assets/img/Image-7.png");
+}
+
+.works__item:nth-child(11) {
+  background: url("assets/img/Project-2.png");
+}
+
+.works__item:nth-child(12) {
+  background: url("assets/img/Image.png");
 }
 /*# sourceMappingURL=singolo2.css.map */
