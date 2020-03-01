@@ -16,13 +16,16 @@
 }
 
 .wrapper {
-  width: 942px;
+  width: 940px;
   margin: 0 auto;
 }
 
 .portfolio {
   background-color: #2d303a;
   color: #666d89;
+  padding-bottom: 53px;
+  -webkit-box-shadow: 0px -6px 0px 0px #323746 inset;
+          box-shadow: 0px -6px 0px 0px #323746 inset;
 }
 
 .portfolio__heading {
@@ -32,15 +35,18 @@
 }
 
 .portfolio__description {
-  padding-top: 20px;
+  padding-top: 22px;
+  letter-spacing: -0.2px;
 }
 
 .portfolio__tags {
-  margin-top: 16px;
+  margin-top: 13px;
 }
 
 .portfolio__works {
-  margin-top: 19px;
+  margin-top: 18px;
+  height: 621px;
+  overflow: hidden;
 }
 
 .tags {
@@ -50,13 +56,24 @@
   list-style: none;
 }
 
-.tags__item {
+.tags__button {
   border: 1px solid #666d89;
   border-radius: 5px;
   font-size: 12px;
-  margin-right: 10px;
-  padding: 3px 7px;
+  margin-right: 12px;
+  padding: 3px 5px;
   cursor: pointer;
+  background-color: transparent;
+}
+
+.tags__button:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.active {
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .works {
@@ -85,7 +102,7 @@
 }
 
 .works__item:nth-child(3) {
-  background: url("assets/img/Project-6.png");
+  background: url("assets/img/Image-6.png");
 }
 
 .works__item:nth-child(4) {
@@ -126,20 +143,25 @@
 
 .about-us {
   background-color: #f2f2f2;
+  -webkit-box-shadow: 0px -7px 0px 0px #ffffff inset;
+          box-shadow: 0px -7px 0px 0px #ffffff inset;
 }
 
 .about-us__heading {
-  padding-top: 113px;
+  padding-top: 59px;
   font-size: 30px;
   font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 .about-us__description {
   padding-top: 20px;
+  line-height: 29px;
+  letter-spacing: -0.2px;
 }
 
 .about-us__team {
-  margin-top: 58px;
+  margin-top: 45px;
 }
 
 .team {
@@ -156,6 +178,10 @@
   height: 300px;
 }
 
+.team__item {
+  width: 300px;
+}
+
 .team__item:nth-child(1) > .team__photo {
   background: url("assets/img/photo-3.png");
 }
@@ -169,14 +195,18 @@
 }
 
 .team__name {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 18px;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .team__description {
-  margin-top: 20px;
+  margin-top: 8px;
   font-size: 12px;
+  letter-spacing: -0.1px;
+  line-height: 21px;
 }
 
 .team__contacts {
@@ -184,15 +214,17 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 24px;
+  margin-bottom: 74px;
 }
 
 .team__link {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
+  border: 0;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .team__link-fb {
@@ -209,5 +241,9 @@
 
 .team__link-linkedin {
   background: url("assets/img/LinkedIn.png");
+}
+
+.team__link:hover {
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=singolo2.css.map */
