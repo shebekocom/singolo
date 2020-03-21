@@ -7,6 +7,7 @@
 </head>
 <body>
   <div class="container">
+  <div class="header__wrapper">
     <header class="header">
       <p class="header__logotype logotype">
         Singolo<span class="logotype--object">*</span>
@@ -14,16 +15,17 @@
       <h1 class="heading">Singolo</h1>
       <nav class="header_nav navigation">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="#">Home</a></li>
-          <li class="navigation__item"><a href="#">Serveces</a></li>
-          <li class="navigation__item"><a href="#">Portfolio</a></li>
-          <li class="navigation__item"><a href="#">About</a></li>
-          <li class="navigation__item"><a href="#">Contact</a></li>
+          <li class="navigation__item"><a class="navigation__link navigation__link--active" href="#home">Home</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#our-services">Services</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#portfolio">Portfolio</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#about">About</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
+  </div>
     <main class="main">
-      <section class="slider">
+      <section class="slider" id="home">
         <div class="slider__arrow-left arrow-left"></div>
         <div class="slider__phone-vertical phone-vertical"></div>
         <div class="slider__phone-horizontal phone-horizontal">
@@ -32,7 +34,7 @@
         </div>
         <div class="slider__arrow-right arrow-rigth"></div>
       </section>
-      <section class="our-services">
+      <section class="our-services" id="our-services">
         <div class="our-services__wrapper servises-description">
           <h2 class="servises-description__heading">Our Services</h2>
           <p class="servises-description__text">
@@ -105,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="wrapper">
           <h2 class="portfolio__heading">Portfolio</h2>
           <div class="portfolio__description description">
@@ -138,7 +140,7 @@
           </div>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about-us" id="about">
         <div class="wrapper">
           <h2 class="about-us__heading">About Us</h2>
           <div class="about-us__description description">
@@ -195,7 +197,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-form">
+      <section class="contact-form" id="contact">
         <div class="wrapper">
           <h2 class="contact-form__heading">Get a Quote</h2>
           <p class="contact-form__description">
